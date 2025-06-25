@@ -13,6 +13,9 @@
     <string name="accept">Принять</string>
     <string name="change_password">Изменить пароль</string>
 
+    <string name="main_activity_text">Время потренить</string>
+    <string name="side_activity_text">Нажимай на кнопку ниже и начинай трекать активность</string>
+
     <string name="login_hint">Логин</string>
     <string name="username_hint">Имя или никнейм</string>
     <string name="password_hint">Пароль</string>

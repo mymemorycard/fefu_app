@@ -14,7 +14,7 @@
         app:layout_constraintStart_toStartOf="parent"
 
         android:fontFamily="sans-serif"
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:background="@color/transparent"
         android:textColor="@color/black"
@@ -30,7 +30,7 @@
         android:background="@color/transparent"
 
         android:fontFamily="sans-serif"
-        android:textSize="25sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="@color/purple"
         android:text="@string/save" />
@@ -91,10 +91,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
 
         android:background="@color/transparent"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
 
         android:fontFamily="sans-serif"
-        android:textSize="25sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="@color/purple"
         android:text="@string/change_password" />
@@ -102,22 +102,23 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/login_button"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/red"
+        android:fontFamily="sans-serif"
 
 
         android:text="@string/exit"
-        android:fontFamily="sans-serif"
         android:textColor="@color/white"
         android:textSize="15sp"
         android:textStyle="bold"
-        android:backgroundTint="@color/red"
         app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
 
-        style="@style/Widget.MaterialComponents.Button.TextButton" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

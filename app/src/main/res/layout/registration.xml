@@ -132,12 +132,7 @@
                 android:text="@string/female"
                 android:textColor="@color/black" />
 
-            <RadioButton
-                android:id="@+id/other"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/another_gender"
-                android:textColor="@color/black" />
+
         </RadioGroup>
 
 
